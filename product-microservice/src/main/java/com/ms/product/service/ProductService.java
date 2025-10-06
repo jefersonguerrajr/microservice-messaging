@@ -17,4 +17,6 @@ public interface ProductService {
     ResponseEntity<Product> updateProduct(Product product);
 
     ResponseEntity<Message> removeProduct(long productId);
+
+    void updateProductAmmount(String message);
 }

@@ -3,6 +3,7 @@ package com.ms.product.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 @Table(name = "product")
+@Data
 public class Product {
 
     @Id
